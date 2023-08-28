@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  margin: 0;
+}
+
+#content {
+  height: 90vh;
+  background-position: center;
+  background-image: url("./components/my-component/restaurant-interior.jpg");
+}
