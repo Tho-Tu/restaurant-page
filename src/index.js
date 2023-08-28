@@ -1,6 +1,7 @@
 import homePage from "./homePage.js";
 import "./style.css";
 
+console.log("index.js");
 // loads the default home page first
 homePage();
 
