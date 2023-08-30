@@ -48,7 +48,8 @@ ul li:active {
 }
 
 .menu-section,
-.about-us-section {
+.about-us-section,
+.reservation-section {
   width: 750px;
   padding: 1rem 2rem;
   flex: 1;
