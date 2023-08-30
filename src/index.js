@@ -1,5 +1,6 @@
 import homePage from "./homePage.js";
 import menuPage from "./menuPage.js";
+import aboutUsPage from "./aboutUs.js";
 import "./style.css";
 
 loadPage();
@@ -49,7 +50,7 @@ function loadPage() {
     aboutUsLink.addEventListener("click", () => {
       clearPage();
       loadNavBar();
-      // load about us
+      aboutUsPage(contentDiv);
     });
 
     reservationLink.addEventListener("click", () => {

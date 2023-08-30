@@ -47,8 +47,9 @@ ul li:active {
   font-size: 1rem;
 }
 
-.menu-section {
-  margin: 0 15vw;
+.menu-section,
+.about-us-section {
+  width: 750px;
   padding: 1rem 2rem;
   flex: 1;
   background-color: white;
