@@ -43,7 +43,7 @@ function loadPage() {
     menuLink.addEventListener("click", () => {
       clearPage();
       loadNavBar();
-      // menuPage(contentDiv);
+      menuPage(contentDiv);
     });
 
     aboutUsLink.addEventListener("click", () => {
